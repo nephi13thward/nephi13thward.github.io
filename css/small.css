@@ -1,0 +1,101 @@
+body{
+    margin-top: 0px; 
+}
+header{
+    display:flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px; 
+    background-color: #80b3ff;
+    color: #031900;
+    margin-bottom: 0px; 
+}
+header img {
+    width:100px; 
+    border: ridge #ccccff 8px; 
+}
+.navigation {
+    list-style-type:none; 
+    margin: 0 auto; 
+    padding:0; 
+    background-color:white;
+    text-align: center;
+}
+nav{
+    margin-bottom: 0px;
+}
+nav li:hover {
+    background-color: #4d94ff; 
+}
+nav li a{
+    text-decoration: none;
+    width: 100%; 
+    height: 100%;
+    display: block; 
+    color: #031900;
+}
+li {
+    padding:20px;
+    text-align: center;
+}
+.active {
+    background-color: #cce0ff; 
+    color:black; 
+}
+.heroimg {
+    width:75%; 
+    margin:10px auto;
+    position:initial;
+}
+.weathersum {
+    display:flex; 
+    flex-direction: column; 
+    text-align: center;
+}
+
+main {
+    /*border: solid #f9ceee 2px; */
+    margin:10px;
+    padding:10px; 
+    color:#031900;  
+}
+
+main ul {
+    list-style-type:none; 
+}
+.title{
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+}
+.motto {
+    text-align:center;
+}
+h2 {
+    text-align: center;
+}
+.navigation li {
+    display:none; 
+}
+.responsive li {
+    display:block; 
+}
+.navigation li:first-child {
+    display:block; 
+}
+footer{
+    background-color:#80b3ff;
+    padding:20px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px; 
+}
+.contactinfo{
+    background-color: #80b3ff;
+    margin-top:20px;
+    padding:20px;
+    margin-right: 10px;
+    margin-left: 10px; 
+    text-align: center;
+}
